@@ -190,3 +190,13 @@ footer{
     margin-top: 5%;
     color: #EBE2DB;
 }
+
+@media screen and (max-width: 400px) {
+    header h1 {
+        font-size: 46px;
+    }
+    
+    header h2 {
+        font-size: 14px;
+    }
+}
