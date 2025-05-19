@@ -14,3 +14,7 @@ const toggleModal = () => {
 [openModalButton, closeModalButton, fade].forEach((el) => {
     el.addEventListener("click", () => toggleModal());
 });
+
+function block(){
+    alert("Indisponível no Momento! ❌")
+}
